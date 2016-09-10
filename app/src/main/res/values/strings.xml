@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HanZuPP_NI</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_register_page">RegisterPage</string>
+    <string name="title_activity_user_page">UserPage</string>
+    <string name="title_activity_my_preferences">MyPreferences</string>
+    <string name="title_activity_my_details">MyDetails</string>
+    <string name="title_activity_matches">Matches</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_my_events">MyEvents</string>
+    <string name="title_activity_my_applications">MyApplications</string>
+    <string name="title_activity_recommendations">Recommendations</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

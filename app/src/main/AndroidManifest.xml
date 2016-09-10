@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ewelina.hanzupp_ni">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterPage"
+            android:label="@string/title_activity_register_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserPage"
+            android:label="@string/title_activity_user_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyPreferences"
+            android:label="@string/title_activity_my_preferences"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyDetails"
+            android:label="@string/title_activity_my_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Matches"
+            android:label="@string/title_activity_matches"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyEvents"
+            android:label="@string/title_activity_my_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyApplications"
+            android:label="@string/title_activity_my_applications"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Recommendations"
+            android:label="@string/title_activity_recommendations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Favourites"
+            android:label="@string/title_activity_favourites"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
